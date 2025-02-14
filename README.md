@@ -5,11 +5,6 @@
   <img src="public/dashboard_instagram.png" alt="Dashboard" />
 </p>
 
-
-<p align="center">
-  <img src="public/Landing_page.png" alt="PulseAI Home" />
-</p>
-
 # PulseAI: Social Media Content Generator
 
 PulseAI is a powerful Next.js application that leverages AI to generate engaging content for various social media platforms. This project uses cutting-edge technologies to provide users with an intuitive interface for creating Twitter threads, Instagram captions, and LinkedIn posts.
@@ -42,8 +37,8 @@ PulseAI is a powerful Next.js application that leverages AI to generate engaging
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/threadcraft-ai.git
-   cd threadcraft-ai
+   git clone https://github.com/your-username/PulseAI.git
+   cd PulseAI
    ```
 
 2. Install dependencies:
