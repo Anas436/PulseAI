@@ -15,7 +15,12 @@ export const LinkedInMock: React.FC<LinkedInMockProps> = ({ content }) => {
           <p className="text-gray-500 text-sm">Your Title • 1st</p>
         </div>
       </div>
-      <p className="mb-4">{content}</p>
+      {/* Ensure new lines are rendered correctly */}
+      <div className="mb-4">
+        {content.split("\n").map((line, index) => (
+          <p key={index} className="mb-1">{line}</p>
+        ))}
+      </div>
       <div className="flex justify-between text-gray-500">
         <ThumbsUp size={18} />
         <MessageSquare size={18} />
