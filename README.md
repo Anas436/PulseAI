@@ -5,7 +5,7 @@
   <img src="public/dashboard_instagram.png" alt="Dashboard" />
 </p>
 
-# PulseAI: Social Media Content Generator
+# PulseAI: SaaS Social Media Content Generator
 
 PulseAI is a powerful Next.js application that leverages AI to generate engaging content for various social media platforms. This project uses cutting-edge technologies to provide users with an intuitive interface for creating Twitter threads, Instagram captions, and LinkedIn posts.
 
