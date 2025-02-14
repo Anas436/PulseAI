@@ -23,7 +23,12 @@ export const InstagramMock: React.FC<InstagramMockProps> = ({ content }) => {
         </div>
         <Bookmark size={24} />
       </div>
-      <p className="text-sm">{content}</p>
+      {/* Ensure new lines are rendered correctly */}
+      <div className="text-sm">
+        {content.split("\n").map((line, index) => (
+          <p key={index} className="mb-1">{line}</p>
+        ))}
+      </div>
     </div>
   );
 };
